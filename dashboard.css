@@ -1,0 +1,34 @@
+/* CSS code for dashboard.php */
+
+/* Center the container */
+.container {
+    text-align: center;
+}
+
+/* Style the table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style the zero results message */
+.zero-results {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
